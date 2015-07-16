@@ -27,13 +27,13 @@ git commit -m "Initial commit."
 ##### Add a new remote to your repository.
 
 ```bash
-git remote add <REMOTE_NAME|origin> <MY_REPOSITORY_URL>
+git remote add origin <MY_REPOSITORY_URL>
 ```
 
-##### Push to your own repository.
+##### Push the first commit to your own repository.
 
 ```bash
-git push
+git push -u origin master
 ```
 
 ## Setup
