@@ -3,14 +3,37 @@ This projects serves as a base for PHP component projects.
 
 ## Usage
 
-1. Create a repository for your project.
-2. Clone this repository ```git clone git@github.com:ebidtech/php-component-bootstrap.git <MY_PROJECT>```.
-3. Change this repository's remote to point to your repository ```git remote set-url origin <MY_REPOSITORY_URL>```.
-4. Optionally, you can reset the repository's history, so that your project does not contain the bootstrap's history:
+##### Clone this repository.
+
+```bash
+git clone git@github.com:ebidtech/php-component-bootstrap.git <MY_PROJECT>
 ```
+
+##### Clear the README file.
+
+```bash
+echo "" > README.md
+```
+
+##### Reset the repository's history, so that your project does not contain the bootstrap's history.
+
+```bash
 rm -rf .git
-git init && git add .
+git init
+git add .
 git commit -m "Initial commit."
+```
+
+##### Add a new remote to your repository.
+
+```bash
+git remote add <REMOTE_NAME|origin> <MY_REPOSITORY_URL>
+```
+
+##### Push to your own repository.
+
+```bash
+git push
 ```
 
 ## Setup
