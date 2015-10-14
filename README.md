@@ -51,8 +51,11 @@ By default **composer.json** is configured to download PHPUnit. Before using PHP
 
 ## Badges
 
-TESTS: [![Circle CI](https://circleci.com/gh/:owner/:repo.png?circle-token=:circle-token)](https://circleci.com/gh/:owner/:repo/tree/master)
+##### TESTS
+[![Circle CI](https://circleci.com/gh/:owner/:repo.png?circle-token=:circle-token)](https://circleci.com/gh/:owner/:repo/tree/master)
 
-Composer LOCK: [![Dependency Status](https://www.versioneye.com/user/projects/:TOKEN/badge.svg?style=flat)](https://www.versioneye.com/user/projects/:TOKEN)
+##### Composer LOCK
+[![Dependency Status](https://www.versioneye.com/user/projects/:TOKEN/badge.svg?style=flat)](https://www.versioneye.com/user/projects/:TOKEN)
 
-Composer JSON: [![Dependency Status](https://www.versioneye.com/user/projects/:TOKEN/badge.svg?style=flat)](https://www.versioneye.com/user/projects/:TOKEN)
+##### Composer JSON
+[![Dependency Status](https://www.versioneye.com/user/projects/:TOKEN/badge.svg?style=flat)](https://www.versioneye.com/user/projects/:TOKEN)
