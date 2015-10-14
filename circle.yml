@@ -1,0 +1,15 @@
+machine:
+  php:
+    version: 5.6.5
+
+dependencies:
+  pre:
+    - sed -i 's/^;//' ~/.phpenv/versions/$(phpenv global)/etc/conf.d/xdebug.ini
+    - composer install --prefer-source --no-interaction
+  
+  cache_directories:
+    - "platform/vendor"  
+
+test:
+  override:
+    - ./vendor/bin/phpunit --coverage-html $CIRCLE_ARTIFACTS --log-junit $CIRCLE_TEST_REPORTS/phpunit.xml --group unit -c app src    

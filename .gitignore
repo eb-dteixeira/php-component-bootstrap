@@ -7,7 +7,6 @@
 .settings
 atlassian-ide-plugin.xml
 composer.phar
-composer.lock
 phpunit.xml
 *.swp
 *.swo
