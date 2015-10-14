@@ -47,3 +47,11 @@ You can install a specific composer version by running ```COMPOSER_VERSION=1.0.0
 ### PHPUnit
 
 By default **composer.json** is configured to download PHPUnit. Before using PHPUnit you should edit **tests/bootstrap.php** and change ```<<TEST_TOP_LEVEL_NAMESPACE>>``` to the top namespace of your test code (by default the PSR-4 standard is used).
+
+### Badges
+
+TESTS: [![Circle CI](https://circleci.com/gh/:owner/:repo.png?circle-token=:circle-token)](https://circleci.com/gh/:owner/:repo/tree/master)
+
+Composer LOCK: [![Dependency Status](https://www.versioneye.com/user/projects/:TOKEN/badge.svg?style=flat)](https://www.versioneye.com/user/projects/:TOKEN)
+
+Composer JSON: [![Dependency Status](https://www.versioneye.com/user/projects/:TOKEN/badge.svg?style=flat)](https://www.versioneye.com/user/projects/:TOKEN)
