@@ -51,7 +51,7 @@ By default **composer.json** is configured to download PHPUnit. Before using PHP
 
 ## Badges
 
-##### TESTS
+##### Test Suite
 [![Circle CI](https://circleci.com/gh/:owner/:repo.png?circle-token=:circle-token)](https://circleci.com/gh/:owner/:repo/tree/master)
 
 ##### Composer LOCK
