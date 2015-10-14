@@ -12,4 +12,4 @@ dependencies:
 
 test:
   override:
-    - ./vendor/bin/phpunit --coverage-html $CIRCLE_ARTIFACTS --log-junit $CIRCLE_TEST_REPORTS/phpunit.xml --group unit -c app src    
+    - ./vendor/bin/phpunit --coverage-html $CIRCLE_ARTIFACTS --log-junit $CIRCLE_TEST_REPORTS/phpunit.xml -c app src    
